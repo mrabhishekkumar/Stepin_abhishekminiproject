@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #OBJECTIVE:-
 
 The objective of this application is to maintain all the records of IPL matches. This will help all the teams to get the updated data of each match and each player and it is very easy to acessible.
@@ -19,3 +20,6 @@ Mobile Access
 Storing records in Databse(TXT file)
 Fully Customizable
 Cost-effective
+=======
+
+>>>>>>> 622a490a8e45431085b0b6111b0a044289814ad3
