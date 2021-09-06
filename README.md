@@ -1,5 +1,9 @@
 # Stepin_abhishekminiproject
 
+![ipl](https://user-images.githubusercontent.com/80070656/132262565-6a2539bc-56c9-4b42-8f7b-e1397a9689fd.jpg)
+
+
+
 ABOUT PROJECT:-
 
 This project was created in c programming. It helps the franchise to pick their best player for the team which gives all the information of a player and their base prices and it
