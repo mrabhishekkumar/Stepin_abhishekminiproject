@@ -20,3 +20,13 @@ Mobile Access
 Storing records in Databse(TXT file)
 Fully Customizable
 Cost-effective
+
+# Cost and Features with Time:-
+
+To determine the cost of IPL management system there are few aspects need to be considered:-
+
+Size of the App: More the features, more the cost.
+
+• Number of Platforms: As the number of platforms are increased cost will also be increased significantly.
+
+• If Indian App firm is chosen to create a IPL Management System then the cost can range between $5000-$8000. This estimate is when the system is being developed with basic features and for a single platform.
