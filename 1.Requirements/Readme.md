@@ -1,17 +1,17 @@
 
-# OBJECTIVE:-
+## OBJECTIVE:-
 
 The objective of this application is to maintain all the records of IPL matches. This will help all the teams to get the updated data of each match and each player and it is very easy to acessible.
 
-# HARDWARE & SOFTWARE REQUIREMENTS:-
+## HARDWARE & SOFTWARE REQUIREMENTS:-
 
 Processor : Intel Core duo Monitor : 15” CRT, or LCD monitor Keyboard : Normal or Multimedia Mouse : Compatible mouse
 
-# SOFTWARE REQUIREMENT:-
+## SOFTWARE REQUIREMENT:-
 
 VS Code Git repository hosting service : GIT Operation System : Windows 10 or Linux
 
-# BENEFITS OF PROJECT:-
+## BENEFITS OF PROJECT:-
 
 Simple & Easy to Use
 Easy to access
@@ -21,7 +21,7 @@ Storing records in Databse(TXT file)
 Fully Customizable
 Cost-effective
 
-# Cost and Features with Time:-
+## Cost and Features with Time:-
 
 To determine the cost of IPL management system there are few aspects need to be considered:-
 
