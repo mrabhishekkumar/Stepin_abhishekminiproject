@@ -22,35 +22,35 @@ int main(){
         }
         else{
             switch(option){
-            case1:{
+            case 1:{
                 team();
                 break;
             }
-            case2:{
+            case 2:{
                 player();
                 break;
             }
-            case3:{
+            case 3:{
                 schedule();
                 break;
             }
-            case4:{
+            case 4:{
                 stats_season();
                 break;
             }
-            case5:{
+            case 5:{
                 stats_player();
                 break;
             }
-            case6:{
+            case 6:{
                 umpires();
                 break;
             }
-            case7:{
+            case 7:{
                 owners();
                 break;
             }
-            case8:{
+            case 8:{
                  printf("**-----------------------------------------------------------------***\n");
                  printf("              THANK YOU FOR VISITING                                 \n");
                  printf("***-----------------------------------------------------------------***\n");
