@@ -6,13 +6,13 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/Owners.c\
-src/all_player.c\
+src/owners.c\
+src/player.c\
 src/schedule.c\
 src/stats_player.c\
-src/stats.c\
-src/Team_data.c\
-src/Umpires.c\
+src/stats_season.c\
+src/team.c\
+src/umpires.c\
 
 
 # # All test source files
