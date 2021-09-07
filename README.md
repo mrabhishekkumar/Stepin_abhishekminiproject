@@ -21,7 +21,10 @@ Sun Risers Hyderabad (SRH) Chennai Super Kings (CSK) Mumbai Indians (MI) Royal C
 ## LEARNING RESOURCES:-
 
 geeksforgeeks
+
 tutorialspoint
+
 git inspector
+
 github workflow
 
