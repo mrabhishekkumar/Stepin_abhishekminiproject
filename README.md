@@ -16,7 +16,21 @@ The Indian Premier League (IPL) is a professional Twenty20 cricket league, conte
 
 ## FRANCHISES IN IPL ARE:-
 
-Sun Risers Hyderabad (SRH) Chennai Super Kings (CSK) Mumbai Indians (MI) Royal Challengers Bengaluru (RCB) Kolkata Knight Riders (KKR) Rajasthan Royals (RR) Delhi Capitals (DC) Kings XI Punjab (KXIP)
+Sun Risers Hyderabad (SRH)
+
+Chennai Super Kings (CSK)
+
+Mumbai Indians (MI)
+
+Royal Challengers Bengaluru (RCB)
+
+Kolkata Knight Riders (KKR)
+
+Rajasthan Royals (RR)
+
+Delhi Capitals (DC) 
+
+Kings XI Punjab (KXIP)
 
 ## LEARNING RESOURCES:-
 
