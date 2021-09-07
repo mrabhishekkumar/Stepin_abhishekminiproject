@@ -8,65 +8,6 @@
     void umpires();
     void owners();
 
-
-int main(){
-    char ch;
-
-	printf("\n\t\t\t----------------------------------\n\t\t\t\t------WElcome To-----");
-	printf("\n\n\t \t \t\tIPL CRICKET MANAGEMENT\n\t\t\t----------------------------------");
-	printf("\n\n MADE BY : ABHISHEK KUMAR ");
-	printf("\n\n\t\t\tPress any key to Continue \n:");
-
-    int option=0;
-    while(option!=8){
-
-        printf("\n1.Display all teams in IPL\n2.Members of all teams respectively with their coaching staff\n3.Tournament schedule with venue.\n4.Stats of this season(2019)\n5.Stats of all the players\n6.Know about Umpires in IPL 2019.\n7.Owners of all the IPL teams\n8.exit \n ");
-        printf("Please Choose the following Option \n: ");
-        scanf("%d",&option);
-
-        if(option>8|| option<1){
-                printf("You have Enter the wrong option please Reenter \n");
-        }
-        else{
-            switch(option){
-            case1:{
-                team();
-                break;
-            }
-            case2:{
-                player();
-                break;
-            }
-            case3:{
-                schedule();
-                break;
-            }
-            case4:{
-                stats_season();
-                break;
-            }
-            case5:{
-                stats_player();
-                break;
-            }
-            case6:{
-                umpires();
-                break;
-            }
-            case7:{
-                owners();
-                break;
-            }
-            case8:{
-                 printf("**-----------------------------------------------------------------***\n");
-                 printf("              THANK YOU FOR VISITING                                 \n");
-                 printf("***-----------------------------------------------------------------***\n");
-                 return 0;
-            }
-        }
-    }
-}
-
     void team(){
         FILE *fptr;
             char c;
@@ -81,7 +22,7 @@ int main(){
             }
             fclose(fptr);
     }
-    void player(){
+  void player(){
         printf("\n\nenter the the team of which you want see the members of :");
             printf("\n 1.CSK\n 2.DC\n 3.KX1P\n 4.KKR\n 5.MI\n 6.RR\n 7.RCB\n 8.SH\n");
             int team_name=0;
@@ -338,6 +279,7 @@ int main(){
                 }
                 fclose(fptr);
     }
+
     void owners(){
         FILE *fptr;
                 char c;
@@ -352,9 +294,66 @@ int main(){
                 }
                 fclose(fptr);
     }
+int main(){
+    char ch;
+
+	printf("\n\t\t\t----------------------------------\n\t\t\t\t------WElcome To-----");
+	printf("\n\n\t \t \t\tIPL CRICKET MANAGEMENT\n\t\t\t----------------------------------");
+	printf("\n\n MADE BY : ABHISHEK KUMAR ");
+	printf("\n\n\t\t\tPress any key to Continue \n:");
+
+
+    while(1){
+
+        printf("\n1.Display all teams in IPL\n2.Members of all teams respectively with their coaching staff\n3.Tournament schedule with venue.\n4.Stats of this season(2019)\n5.Stats of all the players\n6.Know about Umpires in IPL 2019.\n7.Owners of all the IPL teams\n8.exit \n ");
+        printf("Please Choose the following Option \n: ");
+        int option;
+        scanf("%d",&option);
+
+            switch(option){
+            case 1:{
+                team();
+                break;
+            }
+            case 2:{
+                player();
+                break;
+            }
+            case 3:{
+                schedule();
+                break;
+            }
+            case 4:{
+                stats_season();
+                break;
+            }
+            case 5:{
+                stats_player();
+                break;
+            }
+            case 6:{
+                umpires();
+                break;
+            }
+            case 7:{
+                owners();
+                break;
+            }
+            case 8:{
+                 printf("***----------------------------------------------------------------***\n");
+                 printf("              THANK YOU FOR VISITING                                 \n");
+                 printf("***-----------------------------------------------------------------***\n");
+                 exit(0);
+            }
+        }
+
+}
 
 
 
 
+
+
+return 0;
 }
 
