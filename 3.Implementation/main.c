@@ -1,7 +1,3 @@
-#include<stdio.h>
-#define __HEADER_H
-    
-
 int main(){
     char ch;
 
@@ -10,17 +6,14 @@ int main(){
 	printf("\n\n MADE BY : ABHISHEK KUMAR ");
 	printf("\n\n\t\t\tPress any key to Continue \n:");
 
-    int option=0;
-    while(option!=8){
+
+    while(1){
 
         printf("\n1.Display all teams in IPL\n2.Members of all teams respectively with their coaching staff\n3.Tournament schedule with venue.\n4.Stats of this season(2019)\n5.Stats of all the players\n6.Know about Umpires in IPL 2019.\n7.Owners of all the IPL teams\n8.exit \n ");
         printf("Please Choose the following Option \n: ");
+        int option;
         scanf("%d",&option);
 
-        if(option>8|| option<1){
-                printf("You have Enter the wrong option please Reenter \n");
-        }
-        else{
             switch(option){
             case 1:{
                 team();
@@ -51,18 +44,19 @@ int main(){
                 break;
             }
             case 8:{
-                 printf("**-----------------------------------------------------------------***\n");
+                 printf("***----------------------------------------------------------------***\n");
                  printf("              THANK YOU FOR VISITING                                 \n");
                  printf("***-----------------------------------------------------------------***\n");
-                 return 0;
+                 exit(0);
             }
         }
-    }
+
 }
 
-    
 
 
 
 
+
+return 0;
 }
