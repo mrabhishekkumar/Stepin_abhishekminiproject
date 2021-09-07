@@ -6,6 +6,10 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c2a4cd6b9ac94c7e88c9fe1404d27213)](https://www.codacy.com/gh/mrabhishekkumar/Stepin_abhishekminiproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mrabhishekkumar/Stepin_abhishekminiproject&amp;utm_campaign=Badge_Grade)
 
+https://www.code-inspector.com/project/27834/score/svg
+
+https://www.code-inspector.com/project/27834/status/svg
+
 
 
 
